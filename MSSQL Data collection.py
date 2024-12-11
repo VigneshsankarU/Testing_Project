@@ -48,7 +48,7 @@ def save_last_record_times(last_record_times):
 # Function to connect to MS SQL
 def connect_to_mssql():
     try:
-        server = 'DESKTOP-TKOO9UM'
+        server = '192.168.30.10'
         database = 'HMIL_ASSY'
         username = 'sa'
         password = '123'
